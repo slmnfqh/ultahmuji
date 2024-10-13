@@ -7,6 +7,10 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.song {
+  visibility: hidden;
+}
+
 .container {
   height: 100vh;
   width: 100vh;
@@ -68,7 +72,8 @@ body {
 
 .text-box p {
   margin: 0;
-  text-align: left;
+  text-align: justify;
+  line-height: 20px;
 }
 
 .text-box span {
@@ -76,13 +81,13 @@ body {
 }
 
 .text-box .fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: 0.5rem 1rem 0.4rem 1rem;
   position: absolute;
   right: 5px;
-  bottom: 5px;
-  color: #fff;
-  background-color: rgb(21, 161, 237);
-  padding: 5px 8px;
-  border-radius: 3px;
 }
 
 .five p {
@@ -212,7 +217,6 @@ body {
 
 .wish-hbd {
   font-size: 3em;
-  margin: 0;
   text-transform: uppercase;
 }
 
@@ -264,14 +268,16 @@ body {
 
   .four .text-box {
     width: 90%;
+    margin: -40px auto;
   }
 
   .text-box .fake-btn {
     right: 5px;
-    bottom: -38px;
+    bottom: -42px;
   }
 
   .idea-5 span {
+    font-size: 3rem;
     display: block;
   }
 
@@ -282,6 +288,7 @@ body {
   .six .hat {
     width: 50px;
     top: -20px;
+    transform: rotate(-95);
   }
 
   .wish-hbd {
